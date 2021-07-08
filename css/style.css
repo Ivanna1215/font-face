@@ -12,15 +12,15 @@
 }
 .container-2 {
     width: 1400px;
-    height: 940px;
+    /* height: 940px; */
     /* border: 1px solid red; */
     background-color:#FFFFFF;
     /* justify-content: center; */
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 50px auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    padding: 10px;
+    padding: 50px;
     
 }
 .main {
@@ -105,3 +105,8 @@ text-transform: uppercase;
     justify-content: center;
     margin:50px;
 }
+.footer p:hover {
+    font-size: 30px;
+}
+    
+    
